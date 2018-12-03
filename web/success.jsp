@@ -28,9 +28,10 @@
       <body background="images/bg.jpg"> 
           <div id="g">
           <header>
-        <h1>Upload successfull</h1>
+        <h1>Upload successfully</h1>
             </header>
           </div>
+          <br><br>
     <center>
         <c:if test="${requestScope.msg!=null}">
         <h3><c:out value="${requestScope.msg}"></c:out></h3>

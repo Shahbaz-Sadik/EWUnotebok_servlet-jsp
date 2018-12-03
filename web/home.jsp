@@ -45,7 +45,7 @@
                 <li><a href = "file-list.jsp">download File</a></li>
                   
                 <li><a href="upload.jsp">Upload File</a></li>
-                    <li>About</li>
+                     <li><a href = "about.jsp">About</a></li>
                       <li>Home</li>
             </ul>
          

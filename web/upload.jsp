@@ -8,6 +8,13 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <style>
+            
+            
+            #a{
+                text-align:center;
+            }
+        </style>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>upload</title>
 
@@ -81,7 +88,9 @@
 
                             </form>
                             <p class="login button"> 
-                                <a href = "file-list.jsp">DOWNLOAD</a>
+                                <div id="a">
+                               <a href = "file-list.jsp">DOWNLOAD</a>
+                                </div>
                         </div>
 
 
