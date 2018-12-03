@@ -1,8 +1,4 @@
-<%-- 
-    Document   : newjsp
-    Created on : Nov 19, 2018, 8:58:08 PM
-    Author     : Sohel Rana
---%>
+ 
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>

@@ -41,8 +41,7 @@ public class UploadServlet extends HttpServlet {
             out = response.getWriter();
             session = request.getSession(false);
             String folderName = "resources";
-            String uploadPath = request.getServletContext().getRealPath("") + File.separator + folderName;//for netbeans use this code
-            //String uploadPath = request.getServletContext().getRealPath("") + folderName;//for eclipse use this code
+            String uploadPath = request.getServletContext().getRealPath("") + File.separator + folderName;            
             File dir = new File(uploadPath);
             if (!dir.exists()) {
                 dir.mkdirs();

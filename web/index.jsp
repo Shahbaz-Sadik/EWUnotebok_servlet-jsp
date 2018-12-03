@@ -1,8 +1,4 @@
-<%-- 
-    Document   : wellcome
-    Created on : Nov 5, 2018, 6:39:25 PM
-    Author     : Sohel Rana
---%>
+ 
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>

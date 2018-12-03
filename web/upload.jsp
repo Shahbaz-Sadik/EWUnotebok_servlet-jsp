@@ -1,8 +1,4 @@
-<%-- 
-    Document   : upload
-    Created on : Nov 27, 2018, 1:09:43 AM
-    Author     : Sohel Rana
---%>
+ 
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
