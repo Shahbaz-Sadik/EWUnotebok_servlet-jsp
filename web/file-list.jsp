@@ -11,14 +11,34 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>JSP Page</title>
         <style>
+         
+            *{
+                margin:0;
+                padding: 0;
+            
+            }
+            #g{
+                
+                text-align:center;
+                color:black;
+                
+            }
+            
             tr,td,th{
                 padding: 20px;
                 text-align: center;
             }
         </style>
     </head>
-    <body>
-        <br><br><br>
+     <body background="images/bg.jpg"> 
+         <br><br>
+         <div id="g">
+         <header>
+             <h1>Uploaded file</h1>
+
+            </header>
+         </div>
+        <br><br>
     <center>
         <%!
             Connection con = null;
@@ -27,7 +47,7 @@
         %>
         <table border="2">
             <tr>
-                <th>ID</th><th>First Name</th><th>Last Name</th><th>File Name</th><th>File Path</th><th>Added Date</th><th>Download</th>
+                <th>Serial No.</th><th>User Name</th><th>Course Code</th><th>File Name</th><th>File Path</th><th>Added Date</th><th>Download</th>
             </tr>
             <%
                 con = DB.getConnection();

@@ -21,7 +21,7 @@
                 list-style:none;
             }
             #container ul li{
-                background-color:#3C3E94;
+                background-color:#101213;
                 width: 150px;
                 border: 1px solid white;
                 height: 50px;
@@ -41,8 +41,8 @@
   
         <div id="container">
             <ul>
-                <li>Logout</li>
-                <li>Download file</li>
+                <li><a href = "index.jsp">Logout</a></li>
+                <li><a href = "file-list.jsp">download File</a></li>
                   
                 <li><a href="upload.jsp">Upload File</a></li>
                     <li>About</li>

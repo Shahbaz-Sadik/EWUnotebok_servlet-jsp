@@ -9,10 +9,28 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <style>
+            *{
+                margin:0;
+                padding: 0;
+            
+            }
+            #g{
+                
+                text-align:center;
+                color:black;
+                
+            }
+            </style>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Success Page</title>
     </head>
-    <body>
+      <body background="images/bg.jpg"> 
+          <div id="g">
+          <header>
+        <h1>Upload successfull</h1>
+            </header>
+          </div>
     <center>
         <c:if test="${requestScope.msg!=null}">
         <h3><c:out value="${requestScope.msg}"></c:out></h3>
@@ -20,8 +38,8 @@
         <c:if test="${sessionScope.fileName!=null}">
             <c:set var = "file" scope = "session" value = "${sessionScope.fileName}"/>  
         </c:if>
-         <a href = "<c:url value = "DownloadServlet?fileName=${file}"/>">Download</a>&nbsp;&nbsp;&nbsp;
-         <a href = "<c:url value = "file-list.jsp"/>">View List</a>
+         <a href = "<c:url value = "home.jsp"/>">HOME</a>&nbsp;&nbsp;&nbsp;
+         <a href = "<c:url value = "file-list.jsp"/>">DOWNLOAD</a>
     </center>
     </body>
 </html>
