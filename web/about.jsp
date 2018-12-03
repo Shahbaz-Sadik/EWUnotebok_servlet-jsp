@@ -27,18 +27,12 @@
             #x{
                 text-align:center;
 
-
-
             }
 
             #aa{
                 text-align:center;
 
-
-
             }
-
-
 
         </style>
     </head>
@@ -71,16 +65,17 @@
             <br><br> 
             <p>Developed by:</p>
             <br>
-            <p>   Shahbaz Sadik, Sohel Rana, Pappu Kumar Basak</p>
+            <p>Md.Shahbaz Sadik,Md.Sohel Rana, Pappu Kumar Basak</p>
             <p>
                 <br>
             <p>Supervisor:</p> 
             <br>
             <p>Md. Mohsin Uddin </p>
             <p>lecture</p>
+            <p>Department of CSE</p>
             <p>East West University</p>
 
-            <br><br>
+            <br>
         </div>
         <div id ="aa">
             <a href="home.jsp">HOME</a>
