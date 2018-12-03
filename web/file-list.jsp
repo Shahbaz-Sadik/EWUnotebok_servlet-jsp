@@ -47,7 +47,7 @@
         %>
         <table border="2">
             <tr>
-                <th>Serial No.</th><th>User Name</th><th>Course Code</th><th>File Name</th><th>File Path</th><th>Added Date</th><th>Download</th>
+                <th>File No.</th><th>User Name</th><th>Course Code</th><th>File Name</th><th>File Path</th><th>Added Date</th><th>Download</th>
             </tr>
             <%
                 con = DB.getConnection();
