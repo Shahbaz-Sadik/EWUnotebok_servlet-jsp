@@ -67,7 +67,7 @@
             <p>Supervisor:</p> 
             <br>
             <p>Md. Mohsin Uddin </p>
-            <p>lecture</p>
+            <p>lecturer</p>
             <p>Department of CSE</p>
             <p>East West University</p>
 

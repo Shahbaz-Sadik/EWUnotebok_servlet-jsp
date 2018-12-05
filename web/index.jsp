@@ -48,7 +48,7 @@
                                     <label for="password" class="youpasswd" data-icon="p"> Your password </label>
                                     <input id="password" name="password" required="required" type="password" placeholder="eg. X8df!90EO" /> 
                                 </p>
-                                 
+
                                 <p class="login button"> 
                                     <input type="submit" value="Login" /> 
                                 </p>
@@ -56,9 +56,9 @@
                                     Not a member yet ?
                                     <a href="#toregister" class="to_register">Join us</a>
                                 </p>
+                                 
                             </form>
                         </div>
-
                         <div id="register" class="animate form">
                             <form  action="regestation" autocomplete="on"> 
                                 <h1> Sign up </h1> 
@@ -89,8 +89,11 @@
                         </div>
 
                     </div>
-                </div>  
+    
+                </div>
+                
             </section>
         </div>
     </body>
+    
 </html>
