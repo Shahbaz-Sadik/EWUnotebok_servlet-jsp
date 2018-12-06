@@ -69,9 +69,11 @@
 
         </table><br><br><br>
 
-        <form action="adminlogin" autocomplete="on">
+        <form action="adminupdate" autocomplete="on">
             Deleted File No. :<br>
-            <input type="text" name="delete"><br>
+            <input type="text" name="idrow"><br>
+            User name : 
+            <input type="text" name="userrow"><br>
              <input type="submit" value="Submit">
         </form> 
         <br><br><br><br>
