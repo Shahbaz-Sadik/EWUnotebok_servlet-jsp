@@ -34,10 +34,11 @@
         <title>home</title>
     </head>
     <body background="img/ewu1.jpg">  
+        
   
         <div id="container">
             <ul>
-                <li><a href = "index.jsp">Logout</a></li>
+                <li><a href = "welcome.jsp">Logout</a></li>
                 <li><a href = "file-list.jsp">download File</a></li>
                   
                 <li><a href="upload.jsp">Upload File</a></li>
@@ -46,6 +47,5 @@
             </ul>
          
           </div>
-   
     </body>
 </html>
